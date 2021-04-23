@@ -1,4 +1,4 @@
-# Silent is simple TCP reverse shell written on C.
+# Silent is a simple TCP reverse shell written in C.
 ![Alt Text](https://media.giphy.com/media/Kmr5zGPaFDWYiVBVIB/giphy.gif)
 ### In both files IP need to be changed to yours.
 
@@ -31,7 +31,7 @@ i686-w64-mingw32-gcc -o client.exe client.c -lwsock32 -lwininet
 ```bash
 client.exe
 ```
-# Silent using 50005 port
+# Silent uses 50005 port
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
