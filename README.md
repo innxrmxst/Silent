@@ -15,6 +15,7 @@
 ## Installation
 ```bash
 git clone http://github.com/R4v3nG/silent.git
+sudo apt-get install gcc-mingw-w64-i686
 cd silent/server
 gcc -o server server.c
 cd ../client
